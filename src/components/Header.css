@@ -1,0 +1,80 @@
+/* src/components/Header.css */
+.header-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+
+  background-image: radial-gradient(circle, rgba(234, 241, 242, 0.088) 0%, rgba(0, 0, 0, 0) 40%);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+.header-content h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.header-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+   color: #3B38A0;
+   cursor: pointer;
+   transition: transform 0.3s ease-in-out; 
+}
+
+.header-content h1:hover {
+  transform: translateY(-10px) scale(1.1); /* Menggeser ke atas 10px dan memperbesar 10% */
+}
+
+.header-content .title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.social-icons a {
+  color: var(--primary-blue);
+  font-size: 2.5rem;
+  margin: 0 1rem;
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0 0 5px var(--primary-blue));
+}
+
+.social-icons a:hover {
+  transform: scale(1.9);
+}
+
+.nav-buttons {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 5rem;
+  color: var(--primary-blue);
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: var(--primary-blue);
+  }
+}

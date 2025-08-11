@@ -1,0 +1,42 @@
+/* src/components/TechStack.css */
+.tech-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.tech-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.tech-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.tech-category h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.icons-wrapper {
+  display: flex;
+  gap: 2rem;
+  font-size: 3rem;
+  color: var(--primary-blue);
+  filter: drop-shadow(0 0 5px var(--primary-blue));
+}
+
+.tech-heading-wrapper {
+  text-align: left;
+}
+
+.tech-heading {
+  font-size: 6rem;
+  line-height: 1;
+  margin-top: 100px;
+}

@@ -1,0 +1,62 @@
+/* src/styles.css */
+
+/* Mengimpor font dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  /* Mendefinisikan variabel warna untuk konsistensi */
+  --primary-blue: #00e5ff;
+  --dark-bg: #0d0d0d;
+  --text-color: #f0f0f0;
+}
+
+/* Mengatur gaya dasar untuk seluruh halaman */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; /* Membuat scroll lebih halus */
+}
+
+body {
+  background-color: var(--dark-bg);
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+/* Kelas utilitas untuk kontainer konten */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section {
+  padding: 8rem 0;
+}
+
+/* Efek glow untuk teks */
+.glow-text {
+  color: var(--primary-blue);
+  text-shadow: 0 0 5px var(--primary-blue), 0 0 15px var(--primary-blue), 0 0 25px var(--primary-blue);
+}
+
+/* Efek glow untuk tombol */
+.glow-button {
+  background-color: transparent;
+  border: 2px solid var(--primary-blue);
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px var(--primary-blue);
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 15px var(--primary-blue), 0 0 30px var(--primary-blue);
+  transform: scale(1.05);
+}
