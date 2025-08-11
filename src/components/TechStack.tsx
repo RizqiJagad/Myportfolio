@@ -9,6 +9,9 @@ const TechStack: React.FC = () => {
   return (
     <section id="tech" className="section tech-section">
       <div className="container tech-container">
+         <div className="tech-heading-wrapper">
+          <h2 className="tech-heading">TECH<br />SET</h2>
+        </div>
         <div className="tech-list">
           <div className="tech-category">
             <h3>Core Stack I Work With</h3>
@@ -29,9 +32,9 @@ const TechStack: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="tech-heading-wrapper">
+        {/* <div className="tech-heading-wrapper">
           <h2 className="tech-heading">TECH<br />SET</h2>
-        </div>
+        </div> */}
       </div>
     </section>
   );
