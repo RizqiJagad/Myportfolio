@@ -39,3 +39,19 @@
   font-weight: 700;
   margin-bottom: 1rem;
 }
+
+/* Media query untuk tampilan tablet & smartphone */
+@media (max-width: 768px) {
+  .about-container {
+    grid-template-columns: 1fr; /* Mengubah tata letak menjadi satu kolom */
+    text-align: left;
+  }
+
+  .about-heading-wrapper {
+    text-align: left; /* Menyesuaikan posisi judul */
+  }
+
+  .about-heading {
+    font-size: 4rem;
+  }
+}

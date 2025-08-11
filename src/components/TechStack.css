@@ -40,3 +40,34 @@
   line-height: 1;
   margin-top: 100px;
 }
+
+/* Media query untuk tampilan tablet & smartphone */
+@media (max-width: 768px) {
+  .tech-container {
+    grid-template-columns: 1fr; /* Mengubah tata letak menjadi satu kolom */
+    text-align: left;
+  }
+
+  .tech-heading-wrapper {
+    text-align: left; /* Menyesuaikan posisi judul */
+  }
+
+  .tech-heading {
+    font-size: 5rem;
+    text-align: center;
+  }
+  
+  .tech-list {
+    align-items: center;
+  }
+
+}
+
+/* Media query untuk tampilan smartphone */
+@media (max-width: 576px) {
+  .icons-wrapper {
+    flex-wrap: wrap; /* Ikon akan pindah baris jika tidak muat */
+    justify-content: center;
+    gap: 1.5rem;
+  }
+}

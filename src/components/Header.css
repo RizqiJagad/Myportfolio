@@ -78,3 +78,35 @@
     color: var(--primary-blue);
   }
 }
+
+/* Media query untuk tampilan tablet (lebar maks 768px) */
+@media (max-width: 768px) {
+  .header-content h1 {
+    font-size: 4rem;
+  }
+
+  .header-content .title {
+    font-size: 2rem;
+  }
+}
+
+/* Media query untuk tampilan smartphone (lebar maks 576px) */
+@media (max-width: 576px) {
+  .header-content h1 {
+    font-size: 3rem;
+  }
+
+  .header-content .title {
+    font-size: 1.5rem;
+  }
+
+  .social-icons a {
+    font-size: 2rem;
+  }
+
+  .nav-buttons {
+    position: static;
+    margin-top: 2rem;
+    justify-content: center;
+  }
+}
