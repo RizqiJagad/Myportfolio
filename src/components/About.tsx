@@ -30,7 +30,7 @@ const About: React.FC = () => {
             <h3>EDUCATION</h3>
             
             <h4>Politeknik Negeri Media Kreatif - Jakarta</h4>
-            <p>Diploma in Desain, IPK 3.9/4.00</p>
+            <p>Diploma in Desain, IPK 3.4/4.00</p>
             
             <h4>Studi Independen (Kampus Merdeka) Dicoding Indonesia</h4>
             <p>Sertifikat Pengembang Website Font-End dan Back-End</p>
